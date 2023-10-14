@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cup-backgroud {
+  background-image: url("thumbbig-1291872.webp");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.cup-backgroud div {
+  border-radius: 50%;
+  background-color: rgba(236, 236, 232, 0.155);
+  position: absolute;
+  top: 48%;
+}
+
+.cup-backgroud div:nth-child(1) {
+  height: 30px;
+  width: 30px;
+  animation: steamAnimation 27s infinite;
+  left: 25%;
+  
+}
+
+.cup-backgroud div:nth-child(2) {
+  height: 50px;
+  width: 50px;
+  animation: steamAnimation 20s infinite;
+  left: 23%;
+  
+}
+
+.cup-backgroud div:nth-child(3) {
+  height: 30px;
+  width: 30px;
+  animation: steamAnimation 30s infinite;
+  left: 27%;
+  
+}
+
+.cup-backgroud div:nth-child(4) {
+    height: 70px;
+    width: 70px;
+    animation: steamAnimation 21s infinite;
+    left: 24%;
+    
+  }
+  
+  .cup-backgroud div:nth-child(5) {
+    height: 50px;
+    width: 50px;
+    animation: steamAnimation 15s infinite;
+    left: 29%;
+    
+  }
+
+  .cup-backgroud div:nth-child(6) {
+    height: 70px;
+    width: 70px;
+    animation: steamAnimation 16s infinite;
+    left: 18%;
+    
+  }
+  
+  .cup-backgroud div:nth-child(7) {
+    height: 30px;
+    width: 30px;
+    animation: steamAnimation 18s infinite;
+    left: 23%;
+    
+  }
+
+@keyframes steamAnimation {
+  0% {
+    top: 48%;
+  }
+  100% {
+    top: -15%;
+  }
+}
+
+.morning{
+   position: absolute;
+   left: 60%;
+   top: 20%;
+   font-family:fantasy;
+   color: rgba(192, 194, 196, 0.265);
+   font-size: 5rem;
+}
